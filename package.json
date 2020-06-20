@@ -1,0 +1,20 @@
+{
+  "name": "@crensoft/gql-schema",
+  "version": "0.1.0",
+  "description": "GQL Node helpers",
+  "main": "dist/index.js",
+  "repository": "https://github.com/crensoft/gql-schema",
+  "author": "EC <crensoft@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch"
+  },
+  "dependencies": {
+    "@crensoft/ddd": "crensoft/ddd",
+    "@hapi/joi": "^17.1.1"
+  },
+  "devDependencies": {
+    "@types/hapi__joi": "^17.1.2"
+  }
+}
